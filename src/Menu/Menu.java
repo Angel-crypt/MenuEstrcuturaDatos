@@ -13,7 +13,7 @@ public class Menu {
 
         menu.addOption(new OptionArraylist(reader));
         menu.addOption(new OptionHashMap(reader));
-        menu.addOption(new OptionHashSet());
+        menu.addOption(new OptionHashSet(reader));
         menu.addOption(new OptionQueue());
         menu.addOption(new OptionTree());
         menu.addOption(new OptionExit());

@@ -1,15 +1,19 @@
 package Menu.Options;
 
+import ManagementDataStructure.HashMapManagement;
+import ManagementDataStructure.HashSetManagement;
 import Menu.BaseMenuOption;
+import Menu.Services.ReaderInput;
 
 public class OptionHashSet extends BaseMenuOption {
-    public OptionHashSet() {
+    private ReaderInput reader;
+    public OptionHashSet(ReaderInput reader) {
         super("Manejo de HashSet");
+        this.reader = reader;
     }
 
     @Override
     public void execute(){
-        System.out.println("Implementacion de HashSet");
-        //Poner ejecucion
+        new HashSetManagement(reader).execute();
     }
 }
