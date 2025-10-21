@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class QueueManagement {
-    public static void main(String[] args) {
+    public QueueManagement() {
         Queue<String> queue = new LinkedList<>();
         Scanner input = new Scanner(System.in);
 

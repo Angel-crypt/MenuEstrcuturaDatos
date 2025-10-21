@@ -1,5 +1,6 @@
 package Menu.Options;
 
+import ManagementDataStrucutre.QueueManagement;
 import Menu.BaseMenuOption;
 
 public class OptionQueue extends BaseMenuOption {
@@ -10,6 +11,6 @@ public class OptionQueue extends BaseMenuOption {
     @Override
     public void execute(){
         System.out.println("Implementacion de Queue");
-        //Poner ejecucion
+        new QueueManagement();
     }
 }

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class ArrayListManagement {
 
-    public static void main(String[] args) {
+    public ArrayListManagement() {
         List<String> lista = new ArrayList<String>();
         Scanner input = new Scanner(System.in);
 

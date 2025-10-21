@@ -1,5 +1,6 @@
 package Menu.Options;
 
+import ManagementDataStrucutre.ArrayListManagement;
 import Menu.BaseMenuOption;
 
 public class OptionArraylist extends BaseMenuOption {
@@ -10,6 +11,6 @@ public class OptionArraylist extends BaseMenuOption {
     @Override
     public void execute(){
         System.out.println("Implementacion de ArrayList");
-        //Poner ejecucion
+        new ArrayListManagement();
     }
 }

@@ -6,7 +6,7 @@ import Menu.Services.ManagerMenu;
 import Menu.Services.ReaderInput;
 
 public class Menu {
-    public static void  main(String[] args){
+    public Menu(){
         DisplayMenu visualaizer = new DisplayMenu();
         ReaderInput reader = new ReaderInput();
         ManagerMenu menu = new ManagerMenu(visualaizer, reader);
