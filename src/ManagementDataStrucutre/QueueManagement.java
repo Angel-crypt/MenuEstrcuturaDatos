@@ -24,7 +24,7 @@ public class QueueManagement {
 
         System.out.println("Primero en la lista: "+ queue.peek());
 
-        System.out.println("Primer elemento en eliminar: "+ queue.poll());
+        System.out.println("Elemento en eliminar: "+ queue.poll());
 
         System.out.println("Lista Actualizada: "+ queue);
     }
