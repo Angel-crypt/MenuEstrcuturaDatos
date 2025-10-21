@@ -6,17 +6,17 @@ import Menu.Services.ManagerMenu;
 import Menu.Services.ReaderInput;
 
 public class Menu {
-    public Menu(){
-        DisplayMenu visualaizer = new DisplayMenu();
+    public Menu() {
+        DisplayMenu visualizer = new DisplayMenu();
         ReaderInput reader = new ReaderInput();
-        ManagerMenu menu = new ManagerMenu(visualaizer, reader);
+        ManagerMenu menu = new ManagerMenu(visualizer, reader);
 
-        menu.addOPtion(new OptionArraylist());
-        menu.addOPtion(new OptionHashMap());
-        menu.addOPtion(new OptionHashSet());
-        menu.addOPtion(new OptionQueue());
-        menu.addOPtion(new OptionTree());
-        menu.addOPtion(new OptionExit());
+        menu.addOption(new OptionArraylist(reader));
+        menu.addOption(new OptionHashMap());
+        menu.addOption(new OptionHashSet());
+        menu.addOption(new OptionQueue());
+        menu.addOption(new OptionTree());
+        menu.addOption(new OptionExit());
 
         menu.execute();
     }

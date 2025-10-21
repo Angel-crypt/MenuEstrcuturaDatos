@@ -14,7 +14,7 @@ public class ManagerMenu {
         this.reader = reader;
     }
 
-    public void addOPtion(MenuOption option) {
+    public void addOption(MenuOption option) {
         options.add(option);
     }
 
