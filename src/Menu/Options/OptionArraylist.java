@@ -1,6 +1,6 @@
 package Menu.Options;
 
-import ManagementDataStrucutre.ArrayListManagement;
+import ManagementDataStructure.ArrayListManagement;
 import Menu.BaseMenuOption;
 
 public class OptionArraylist extends BaseMenuOption {

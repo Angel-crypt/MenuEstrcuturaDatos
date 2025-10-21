@@ -1,4 +1,4 @@
-package ManagementDataStrucutre;
+package ManagementDataStructure;
 
 import java.util.ArrayList;
 import java.util.List;

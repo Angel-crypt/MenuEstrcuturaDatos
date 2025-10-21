@@ -1,4 +1,4 @@
-package ManagementDataStrucutre;
+package ManagementDataStructure;
 
 import java.util.LinkedList;
 import java.util.Queue;

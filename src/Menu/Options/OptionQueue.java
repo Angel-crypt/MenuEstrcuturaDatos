@@ -1,6 +1,6 @@
 package Menu.Options;
 
-import ManagementDataStrucutre.QueueManagement;
+import ManagementDataStructure.QueueManagement;
 import Menu.BaseMenuOption;
 
 public class OptionQueue extends BaseMenuOption {

@@ -12,7 +12,6 @@ public class Menu {
         ManagerMenu menu = new ManagerMenu(visualaizer, reader);
 
         menu.addOPtion(new OptionArraylist());
-        menu.addOPtion(new OptionExit());
         menu.addOPtion(new OptionHashMap());
         menu.addOPtion(new OptionHashSet());
         menu.addOPtion(new OptionQueue());
