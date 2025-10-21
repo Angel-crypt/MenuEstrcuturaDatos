@@ -1,15 +1,18 @@
 package Menu.Options;
 
+import ManagementDataStructure.HashMapManagement;
 import Menu.BaseMenuOption;
+import Menu.Services.ReaderInput;
 
 public class OptionHashMap extends BaseMenuOption {
-    public OptionHashMap() {
+    private ReaderInput reader;
+    public OptionHashMap(ReaderInput reader) {
         super("Manejo de HashMap");
+        this.reader = reader;
     }
 
     @Override
     public void execute(){
-        System.out.println("Implementacion de HashMap");
-        //Poner ejecucion
+        new HashMapManagement(reader).execute();
     }
 }

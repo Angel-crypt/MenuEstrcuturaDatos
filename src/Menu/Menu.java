@@ -12,7 +12,7 @@ public class Menu {
         ManagerMenu menu = new ManagerMenu(visualizer, reader);
 
         menu.addOption(new OptionArraylist(reader));
-        menu.addOption(new OptionHashMap());
+        menu.addOption(new OptionHashMap(reader));
         menu.addOption(new OptionHashSet());
         menu.addOption(new OptionQueue());
         menu.addOption(new OptionTree());
